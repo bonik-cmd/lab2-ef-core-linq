@@ -1,3 +1,5 @@
+[![Build](https://github.com/bonik-cmd/lab2-ef-core-linq/actions/workflows/build.yml/badge.svg)](https://github.com/bonik-cmd/lab2-ef-core-linq/actions/workflows/build.yml)
+
 # Лабораторная работа №2. Entity Framework Core и LINQ
 
 **Вариант 8** — «Клинико-диагностическая лаборатория»
