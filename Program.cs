@@ -74,10 +74,11 @@ static void Task21(ClinicalLaboratoryDbContext db)
 // ============================================================
 static void Task22(ClinicalLaboratoryDbContext db)
 {
-    Console.WriteLine("\n=== 2.2. Врачи-кардиологи из поликлиники №3 (первые 20) ===");
+    Console.WriteLine("\n=== 2.2. Врачи-кардиологи из поликлиники №5 (первые 20) ===");
+
     var query = db.Doctors
         .Where(d => d.Specialty == "Кардиолог"
-                 && d.MedicalOrgName.Contains("поликлиника №3"));
+                 && d.MedicalOrgName.Contains("поликлиника №5"));
 
     var rows = query.Take(20).ToList();
     foreach (var d in rows)
